@@ -1,0 +1,270 @@
+body {
+    font-family: 'Lilita One', cursive;
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: #e2b5af;
+  }
+  
+  header {
+    
+    padding: 20px;
+    text-align: center;
+    
+  }
+
+  .header h1 {
+    margin: 0;
+    color: #3A4F7A;
+    font-size:100px;
+    padding-bottom: 30px;
+    
+  }
+  
+  .header p {
+    margin: 0;
+    font-size: 30px;
+    padding-bottom: 30px;
+    color: white;
+  }
+  
+  
+  main h2 {
+    margin: 20px 0;
+    color: #333;
+    
+  }
+  
+  main p {
+    line-height: 1.5;
+    
+  }
+
+  .features-row i {
+    padding: 5% 25%;
+  }
+
+  .features-row p {
+    color: #3A4F7A;
+  }
+
+
+  .section-img {
+    padding-left: 100px;
+  }
+  
+  .section-1 {
+    text-align: left;
+    padding-top: 75px;
+    padding-left: 100px;
+  }
+
+  .section-2 {
+    text-align: left;
+    padding-top: 50px;
+    
+  }
+
+  .section-3 {
+    text-align: left;
+    padding-right: 125px;
+    padding-top: 100px;
+  }
+
+  .section-4 {
+    text-align: left;
+    padding-right: 125px;
+    padding-top: 50px;
+  }
+  
+  .features-row {
+    text-align: center;
+    font-size: x-large;
+    margin: auto;
+    padding: 0 20px;
+  }
+
+  #description {
+    background-color: #ccc;
+    padding-top: 50px;
+    padding-right: 50px;
+  }
+  
+
+
+  .background-image {
+    padding: 0 0 0 70px;
+    width: 100%;
+    
+  }
+
+  .header {
+    padding: 50px 0 0 0;
+    width: 550px;
+    position: relative;
+  }
+
+  .row {
+    padding-bottom: 30px;
+  }
+
+  .btn {
+    margin: 15px 15px;
+  }
+
+  #navbarText  {
+    margin: auto;
+    font-size: larger;
+    color: #ddd;
+  }
+
+  .navbar-brand {
+    color:#3A4F7A ;
+  }
+  
+  * {box-sizing: border-box}
+  /* Full-width input fields */
+    input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  /* Add a background color when the inputs get focus */
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Set a style for all buttons */
+  .modal button  {
+    background-color: #e2b5af;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+
+  button {
+    border: none;
+    background-color: #e2b5af;
+    color: white;
+  }
+  
+  button:hover {
+    opacity:1;
+  }
+  
+  /* Extra styles for the cancel button */
+  .cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+  }
+  
+  /* Float cancel and signup buttons and add an equal width */
+  .cancelbtn, .signupbtn {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Add padding to container elements */
+  .container {
+    padding: 16px;
+    background-color: #e2b5af;
+    margin: auto;
+  }
+  
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: #474e5d;
+    padding-top: 50px;
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* Style the horizontal ruler */
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+  /* The Close Button (x) */
+  .close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f1f1f1;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #f44336;
+    cursor: pointer;
+  }
+  
+  /* Clear floats */
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Change styles for cancel button and signup button on extra small screens */
+  @media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+      width: 100%;
+    }
+  }
+
+  .signupctl {
+
+    padding: 140px 0 0 205px;
+    
+  }
+
+  .signupctl .btn-lg {
+    font-size: 65px;
+  }
+
+
+  .downloadctl {
+    padding: 100px 0 0 170px;
+  }
+
+  #footer {
+    padding-top: 30px;
+    line-height: 2rem;
+    text-align: center;
+  }
+
+  .icons {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    margin: 0 35%;
+  }
+
+  .icons i {
+    color: white;
+  }
